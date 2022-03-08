@@ -12,11 +12,11 @@ function App() {
         <label for="travel">I'm traveling for work</label>
       </div>
       <section id="covidInfo">
-        <p>
+        <h1>
           Get the advice you need. Check latest COVID-19 restrictions before you
           travel.
           <a href="wg">Learn more</a>
-        </p>
+        </h1>
       </section>
       <section>
         <h1>Discover Early 2022 Deals</h1>

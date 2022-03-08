@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <header>
-      <div>
+      <div className="one">
         <h1>Booking.com</h1>
         <button> USD </button>
         <button> Language </button>
