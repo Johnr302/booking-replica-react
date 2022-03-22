@@ -17,17 +17,17 @@ const Header = () => {
             <a href="" id="listProperty">
               List your property
             </a>
-            <a href="" id="register">
+            <a href="" className="white-BG" id="register">
               Register
             </a>
-            <a href="" id="signIn">
+            <a href="" className="white-BG" id="signIn">
               Sign in
             </a>
           </div>
         </div>
       </div>
       <div className="button-options-container">
-        <button>Stays</button>
+        <button className="active">Stays</button>
         <button>Flights</button>
         <button>Flight + Hotel</button>
         <button>Car rentals</button>

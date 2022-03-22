@@ -9,7 +9,8 @@ body {
 
 .button-options-container {
   justify-content: left;
-  width: 63.5%;
+  width: 100%;
+  max-width: 1100px;
 }
 .button-options-container button {
   border: none;
@@ -20,17 +21,23 @@ body {
   margin: auto 3px;
 }
 
+.active {
+  border: 1px solid white !important;
+  border-radius: 23px;
+}
 .button-options-container button:hover {
-  border: 1px solid white;
+  background-color: #204a8c;
   border-radius: 23px;
 }
 
 .circle {
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 50%;
-  height: 20px;
-  width: 20px;
-  margin: auto 5px;
+  height: 25px;
+  width: 25px;
+  margin: auto 17px;
+  overflow: hidden;
+  font-weight: 500;
 }
 
 #currency {
@@ -39,8 +46,14 @@ body {
   color: white;
 }
 
+#customerService {
+  background-color: #003680;
+  color: white;
+}
+
 form {
-  width: 63.5%;
+  width: 100%;
+  max-width: 1100px;
   display: flex;
   height: 60px;
 }
@@ -55,15 +68,23 @@ header {
 header a {
   color: white;
   text-decoration: none;
+  border: 1px solid white;
+  margin: auto 4px;
+  padding: 11px;
+  font-size: 15px;
+  font-weight: 500;
 }
 .inner-container h1 {
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: 600;
 }
 .header-container {
   display: flex;
   flex-grow: 1;
   align-items: center;
-  width: 63.5%;
+  max-width: 1100px;
+  width: 100%;
+  padding-top: 2px;
 }
 
 .inner-container {
@@ -96,6 +117,7 @@ header a {
   flex-direction: column;
   width: 63.5%;
 }
+
 .search-location {
   display: flex;
   flex-direction: column;
@@ -103,8 +125,15 @@ header a {
 
   background-color: #003680;
 }
+
 .search-location form {
   background-color: #febb02;
   padding: 2px;
   margin-bottom: -30px;
+}
+
+.white-BG {
+  background-color: white;
+  color: #003680;
+  border-color: #003680;
 }
