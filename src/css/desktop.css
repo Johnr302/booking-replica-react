@@ -40,6 +40,35 @@ body {
   font-weight: 500;
 }
 
+.container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  width: 100%;
+  align-items: center;
+}
+
+.container section {
+  width: 100%;
+}
+
+#covidInfo {
+  border: 1px solid #c2c2c2;
+  max-width: 1100px;
+}
+
+#covidInfo a {
+  text-decoration: none;
+}
+
+#covidInfo h1 {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 15px;
+}
+
 #currency {
   border: none;
   background-color: #003680;
@@ -51,6 +80,34 @@ body {
   color: white;
 }
 
+.deals {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 25px;
+  max-width: 1100px;
+  width: 100%;
+}
+
+.deals-button {
+  color: #0071c2;
+  background-color: white;
+  border: 1px solid #0071c2;
+  border-radius: 2px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.deals h1 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.deals section {
+  border: 1px solid #c2c2c2;
+  max-width: 530px;
+  padding: 0 0 10px 10px;
+}
 form {
   width: 100%;
   max-width: 1100px;
@@ -115,14 +172,27 @@ header a {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  width: 63.5%;
+  width: 100%;
+  max-width: 1100px;
+  margin-bottom: 10px;
+}
+
+.search-location-text-container h1 {
+  font-size: 47px;
+  font-weight: 700;
+  margin: 80px 0 0;
+  letter-spacing: 2px;
+}
+.search-location-text-container p {
+  font-size: 25px;
+  font-weight: 100;
+  margin-top: 8px;
 }
 
 .search-location {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   background-color: #003680;
 }
 
@@ -130,6 +200,18 @@ header a {
   background-color: #febb02;
   padding: 2px;
   margin-bottom: -30px;
+}
+
+.travel-for-work {
+  width: 100%;
+  max-width: 1100px;
+  margin-bottom: 40px;
+  margin-top: 3px;
+}
+
+input[type="checkbox"] {
+  background-color: black;
+  border-color: #c2c2c2;
 }
 
 .white-BG {
