@@ -120,7 +120,7 @@ body {
   display: flex;
 }
 
-.explore-card {
+.card {
   display: flex;
   flex-direction: column;
   width: 170px;
@@ -128,21 +128,27 @@ body {
   align-items: flex-start;
 }
 
-.explore-card h2 {
+.card h2 {
   font-size: 15px;
   padding: 12px 0 0px 0;
   margin: 0;
 }
 
-.explore-card p {
+.card p {
   font-size: 14px;
   padding-top: 4px;
   font-weight: 300;
   margin: 0;
 }
 
-.explore-card img {
+.card img {
   height: 170px;
+  width: 170px;
+}
+
+.city-property-container {
+  width: 100%;
+  max-width: 1100px;
 }
 
 .explore-USA {
@@ -199,6 +205,52 @@ header a {
   width: 100%;
 }
 
+#LasVegas {
+  background: url(https://cf.bstatic.com/xdata/images/city/540x270/349717.webp?k=15138e712e1083b40d0c1164fad96f5adce36dbe3707fe483f516a555765e561&o=);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#LosAngeles {
+  background: url(https://cf.bstatic.com/xdata/images/city/540x270/620034.webp?k=57be46c03c63ddade3e509013855574fe00e8b23e30dc19cd6cc232b4da7eb7e&o=);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.location {
+  width: 355px;
+  height: 270px;
+}
+
+.major-location {
+  color: white;
+  height: 285px;
+  width: 540px;
+}
+
+.major-location-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#PalmSprings {
+  background: url(https://cf.bstatic.com/xdata/images/city/540x270/689354.webp?k=bbdffcc102bbeceb3f36d5c55bf031fcaa67314ab1ce88be019496fc9c03facd&o=);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#SanDiego {
+  background: url(https://cf.bstatic.com/xdata/images/city/540x270/689373.webp?k=653f4e64198a8728a4ca792a53cc44103b1c1ab8ab3a0328033fb253383ea13e&o=);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#SanFrancisco {
+  background: url(https://cf.bstatic.com/xdata/images/city/540x270/689394.webp?k=23b0050a839e18850cc6b64186787bdd846385ae280f2bdff2ced0a438f72112&o=);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
 .search {
   background-color: #0071c2;
   color: white;
@@ -210,6 +262,8 @@ header a {
   flex-grow: 1;
   font-size: 15px;
   margin: 3px;
+  border: none;
+  border-radius: 2px;
 }
 
 .search-location-text-container {
@@ -247,6 +301,7 @@ header a {
   background-color: #febb02;
   padding: 2px;
   margin-bottom: -30px;
+  border-radius: 2px;
 }
 
 .travel-for-work {
