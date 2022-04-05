@@ -195,66 +195,80 @@ function App() {
           </div>
         </div>
         <footer>
-          <button> List your property</button>
-          <div className="line"></div>
-          <div className="button-container">
-            <button>Mobile version</button>
-            <button>Your Account</button>
-            <button>Make changes online to your booking</button>
-            <button>Customer Service Help</button>
-            <button>Become an affiliate</button>
-            <button>Booking.com for Business</button>
+          <div className="container-1">
+            <button> List your property</button>
+            <div className="line"></div>
+            <div className="button-container">
+              <button className="underline-white">Mobile version</button>
+              <button className="underline-white">Your Account</button>
+              <button className="underline-white">
+                Make changes online to your booking
+              </button>
+              <button className="underline-white">Customer Service Help</button>
+              <button className="underline-white">Become an affiliate</button>
+              <button className="underline-white">
+                Booking.com for Business
+              </button>
+            </div>
           </div>
-          <div className="container-footer">
+          <div className="container-2">
             <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>Countries</li>
+              <li>Regions</li>
+              <li>Cities</li>
+              <li>Districts</li>
+              <li>Airports</li>
+              <li>Hotels</li>
+              <li>Places of interest</li>
             </ul>
             <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>Homes</li>
+              <li>Apartments</li>
+              <li>Resorts</li>
+              <li>Villas</li>
+              <li>Hostels</li>
+              <li>B&Bs</li>
+              <li>Guest houses</li>
             </ul>
             <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>Unique places to stay</li>
+              <li>All destination</li>
+              <li>Discover</li>
+              <li>Reviews</li>
+              <li>Unpack: Travel articles</li>
+              <li>Season and holiday deals</li>
             </ul>
             <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>Car rental</li>
+              <li>Flight finder</li>
+              <li>Restaurant reservations</li>
+              <li>Booking.com for Travel Agents</li>
             </ul>
             <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>Coronavirus (COVID-19) FAQs</li>
+              <li>About Booking.com</li>
+              <li>Customer Service Help</li>
+              <li>Partner help</li>
+              <li>Careers</li>
+              <li>Sustainability</li>
+              <li>Press center</li>
+              <li>Safety Resource Center</li>
+              <li>Investor relations</li>
+              <li>Terms & conditions</li>
+              <li>Dispute resolution</li>
+              <li>How We Work</li>
+              <li>Privacy & cookie statement</li>
+              <li>Don't sell my personal information</li>
+              <li>Corporate contact</li>
             </ul>
           </div>
+          <button>Extranet login</button>
+          <p>Copyright © 1996–2022 Booking.com™. All rights reserved.</p>
+          <p>
+            Booking.com is part of Booking Holdings Inc., the world leader in
+            online travel and related services.
+          </p>
+          <div className="logo-container"></div>
         </footer>
       </div>
     </div>

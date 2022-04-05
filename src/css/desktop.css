@@ -161,6 +161,48 @@ body {
   flex-direction: row;
 }
 
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .button-options-container {
+  background-color: #00357f;
+}
+
+footer .container-1 {
+  width: 100%;
+  background-color: #00357f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .container-1 button {
+  max-width: 1100px;
+}
+
+footer .container-1 .line {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+}
+
+footer .container-2 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  width: 100%;
+}
+
+footer .button-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  width: 100%;
+}
+
 form {
   width: 100%;
   max-width: 1100px;
@@ -205,6 +247,11 @@ header a {
   width: 100%;
 }
 
+input[type="checkbox"] {
+  background-color: black;
+  border-color: #c2c2c2;
+}
+
 #LasVegas {
   background: url(https://cf.bstatic.com/xdata/images/city/540x270/349717.webp?k=15138e712e1083b40d0c1164fad96f5adce36dbe3707fe483f516a555765e561&o=);
   background-repeat: no-repeat;
@@ -227,25 +274,24 @@ header a {
   align-content: space-around;
   justify-content: space-between;
   color: white;
-} 
+}
 
-.location-text-container{
+.location-text-container {
   padding-left: 16px;
 }
 
-.location-text-container h1{
+.location-text-container h1 {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 0;
   text-shadow: 1px 1px 1px #000;
 }
 
-.location-text-container p{
+.location-text-container p {
   font-size: 16px;
   line-height: 1px;
   font-weight: 300;
   text-shadow: 1px 1px 1px #000;
-  
 }
 
 .major-location {
@@ -337,9 +383,11 @@ header a {
   margin-top: 3px;
 }
 
-input[type="checkbox"] {
-  background-color: black;
-  border-color: #c2c2c2;
+.underline-white {
+  border: none;
+  text-decoration: underline;
+  background-color: #00357f;
+  color: white;
 }
 
 .white-BG {
