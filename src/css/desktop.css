@@ -222,6 +222,32 @@ header a {
   height: 270px;
 }
 
+.location-container {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-between;
+  color: white;
+} 
+
+.location-text-container{
+  padding-left: 16px;
+}
+
+.location-text-container h1{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.location-text-container p{
+  font-size: 16px;
+  line-height: 1px;
+  font-weight: 300;
+  text-shadow: 1px 1px 1px #000;
+  
+}
+
 .major-location {
   color: white;
   height: 285px;

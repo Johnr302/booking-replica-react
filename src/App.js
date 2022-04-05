@@ -159,29 +159,103 @@ function App() {
         <div className="city-property-container">
           <div className="major-location-container">
             <div className="major-location" id="LasVegas">
-              <h1>Las Vegas</h1>
-              <p>566 properties</p>
+              <div className="location-text-container">
+                <h1>Las Vegas</h1>
+                <p>566 properties</p>
+              </div>
             </div>
             <div className="major-location" id="SanDiego">
-              <h1>San Diego</h1>
-              <p>1,400 properties</p>
+              <div className="location-text-container">
+                <h1>San Diego</h1>
+                <p>1,400 properties</p>
+              </div>
             </div>
           </div>
           <div className="location-container">
             <div className="location" id="SanFrancisco">
-              <h1>San Francisco</h1>
-              <p>377</p>
+              <div className="location-text-container">
+                <h1>San Francisco</h1>
+                <p>377</p>
+              </div>
             </div>
             <div className="location" id="LosAngeles">
-              <h1>Los Angeles</h1>
-              <p>1,715 properties</p>
+              <div className="location-text-container">
+                <h1>Los Angeles</h1>
+                <p>1,715 properties</p>
+              </div>
             </div>
             <div className="location" id="PalmSprings">
-              <h1>Palm Springs</h1>
-              <p>469 properties</p>
+              <div className="location-text-container">
+                <div className="location-text-container">
+                  <h1>Palm Springs</h1>
+                  <p>469 properties</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        <footer>
+          <button> List your property</button>
+          <div className="line"></div>
+          <div className="button-container">
+            <button>Mobile version</button>
+            <button>Your Account</button>
+            <button>Make changes online to your booking</button>
+            <button>Customer Service Help</button>
+            <button>Become an affiliate</button>
+            <button>Booking.com for Business</button>
+          </div>
+          <div className="container-footer">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </footer>
       </div>
     </div>
   );
