@@ -196,11 +196,26 @@ footer .container-2 {
   width: 100%;
 }
 
+footer .container-2 a {
+  text-decoration: none;
+}
+
+footer .container-2 li {
+  list-style: none;
+}
+
 footer .button-container {
   display: flex;
   justify-content: space-between;
   max-width: 1100px;
   width: 100%;
+}
+
+footer .logo-container {
+  width: 100%;
+  max-width: 984px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 form {
