@@ -196,7 +196,7 @@ function App() {
         </div>
         <footer>
           <div className="container-1">
-            <button> List your property</button>
+            <button id="footerListProperty"> List your property</button>
             <div className="line"></div>
             <div className="button-container">
               <button className="underline-white">Mobile version</button>
@@ -340,7 +340,7 @@ function App() {
               </li>
             </ul>
           </div>
-          <button>Extranet login</button>
+          <button className="extranet">Extranet login</button>
           <p>Copyright © 1996–2022 Booking.com™. All rights reserved.</p>
           <p>
             Booking.com is part of Booking Holdings Inc., the world leader in

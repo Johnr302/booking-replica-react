@@ -21,9 +21,7 @@ const Header = () => {
           </svg>
           <div>
             <button id="currency">USD</button>
-            <button className="circle" id="language">
-              Language
-            </button>
+            <button className="circle" id="language"></button>
             <button className="circle" id="customerService">
               ?
             </button>
