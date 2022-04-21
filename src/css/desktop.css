@@ -282,6 +282,11 @@ header a {
   font-weight: 500;
   border-radius: 2px;
 }
+
+header .right-header-container {
+  display: flex;
+}
+
 .inner-container h1 {
   font-size: 25px;
   font-weight: 600;
